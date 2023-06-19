@@ -11,8 +11,8 @@ int main(void)
 
 	for (i = 0, i < 10, i++)
 	{
-		printif("%d", i)
+		printf("%d", i)
 	}
-	puchar ('\n')
+	putchar ('\n')
 	return (0)
 }
