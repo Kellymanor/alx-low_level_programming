@@ -13,9 +13,9 @@ int main(void)
 	int *p;
 
 	p = &a[2];
-	
+
 	*(p + 5) = 98;
-	
+
 	printf("a[2] = %d\n", *(p + 5));
 
 	return (0);
