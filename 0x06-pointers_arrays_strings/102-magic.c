@@ -9,14 +9,16 @@
 int main(void)
 
 {
-	int a[5] = {98, 402, 1024, 4096, 2048};
+	int n;
+	int a[5];
 	int *p;
 
-	p = &a[2];
+	a[2] = 2048;
+	p = &n;
 
 	*(p + 5) = 98;
 
-	printf("a[2] = %d\n", *p[3]);
+	printf("a[2] = %d\n", a[2]);
 
 	return (0);
 }
