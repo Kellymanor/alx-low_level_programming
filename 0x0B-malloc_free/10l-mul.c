@@ -1,8 +1,7 @@
-#include "main.h"
 #include <stdlib.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
 
 /**
  * checkNum - this function check if the strings passed as an arguments
@@ -119,3 +118,4 @@ int main(int argc, char *argv[])
 	return (0);
 
 }
+
